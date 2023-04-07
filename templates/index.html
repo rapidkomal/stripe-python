@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flask + Stripe Checkout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="https://js.stripe.com/v3/"></script>  <!-- new -->
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <button class="button is-primary" id="submitBtn">Purchase!</button>
+    </div>
+  </section>
+</body>
+</html>
+
+
+
+<!--- <!DOCTYPE html>
+<html>
+<head>
+  <title>Stripe</title>
+  <style type="text/css" media="screen">
+    form article label {
+      display: block;
+      margin: 5px;
+    }
+
+    form .submit {
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<form action="/charge" method="post">
+    <article>
+      <label>
+        <span>Amount is $5.00</span>
+      </label>
+    </article>
+  
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="{{ key }}"
+            data-description="A Flask Charge"
+            data-amount="500"
+            data-locale="auto"></script>
+  </form>
+</html> -->
