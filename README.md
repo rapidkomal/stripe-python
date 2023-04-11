@@ -1,4 +1,4 @@
-# Srtipe with flask
+# Stripe with flask
 #### Srtipe
 Stripe is a payment processing platform that allows businesses and individuals to accept online payments. It was founded in 2010 and is based in San Francisco, California.
 
